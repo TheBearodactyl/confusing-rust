@@ -1,0 +1,14 @@
+error: internal compiler error: error performing operation: fully_perform
+  --> $DIR/issue-80409.rs:49:30
+   |
+LL |     builder.state().on_entry(|_| {});
+   |                              ^^^
+   |
+note: 
+  --> $DIR/issue-80409.rs:49:30
+   |
+LL |     builder.state().on_entry(|_| {});
+   |                              ^^^
+
+query stack during panic:
+end of query stack
